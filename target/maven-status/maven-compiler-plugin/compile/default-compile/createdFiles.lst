@@ -1,0 +1,17 @@
+model\Emprestimo.class
+model\dao\EmprestimoDaoJpa.class
+model\dao\InterfaceClienteDao.class
+model\dao\ClienteDaoJpa.class
+model\dao\LivroDaoFactory.class
+model\dao\LivroDaoJpa.class
+model\dao\ConnFactory.class
+model\dao\InterfaceEmprestimoJpa.class
+view\Principal.class
+controller\EmprestimoController.class
+controller\ClienteController.class
+model\dao\ClienteDaoFactory.class
+model\Livros.class
+model\dao\EmprestimoDaoFactory.class
+model\Cliente.class
+model\dao\InterfaceDao.class
+controller\LivrosController.class

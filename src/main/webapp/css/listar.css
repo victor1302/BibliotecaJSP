@@ -1,0 +1,138 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #667eea; /* tom azulado */
+  color: white;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 16px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9ff; /* tom bem claro */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #eef2ff;
+}
+
+th {
+  font-weight: 600;
+  
+}
+
+td {
+  color: #4a5568; /* cinza escuro */
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+button[type="submit"] {
+  background-color: #667eea;         /* mesmo tom azul do cabeçalho da tabela */
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+  background-color: #5a67d8;         /* tom mais escuro no hover */
+  transform: translateY(-1px);
+}
+
+button[type="submit"]:active {
+  background-color: #4c51bf;         /* tom ainda mais escuro ao clicar */
+  transform: translateY(0);
+}
+
+button[type="submit"]:disabled {
+  background-color: #a0aec0;         /* cinza claro se desativado */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+input[type="number"] {
+  width: 150px;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e0;        /* borda cinza clara */
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d3748;                   /* cinza escuro no texto */
+  background-color: #f7fafc;        /* leve fundo claro */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #667eea;            /* azul igual ao botão e cabeçalho */
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+  outline: none;
+}
+
+input[type="number"]::placeholder {
+  color: #a0aec0;                   /* cinza claro para placeholder */
+}
+.voltar-link {
+  display: inline-block;
+  background-color: #edf2f7;       /* fundo cinza claro */
+  color: #4a5568;                  /* cinza escuro (texto) */
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.voltar-link:hover {
+  background-color: #e2e8f0;       /* tom mais escuro no hover */
+  color: #2d3748;
+}
+select {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 100%;
+    max-width: 200px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23777"><path d="M4 6l4 4 4-4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+}
