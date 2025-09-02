@@ -16,13 +16,14 @@ O objetivo é gerenciar usuários, livros e empréstimos de forma simples e efic
 - Listagem de histórico de empréstimos  
 
 ## 📂 Estrutura do projeto
+````
 📂 Biblioteca_JSP/
 ┣ src/            # Código fonte (Servlets, Classes, DAO)
 ┣ WebContent/     # Páginas JSP, CSS, JS
 ┣ META-INF/
 ┣ WEB-INF/
 ┗ README.md
-
+````
 
 ## ▶️ Como executar
 1. Clone este repositório:  
